@@ -2,18 +2,21 @@
 # Set parameters here that may be different on each deployment target of the app, e.g. development, staging, production.
 # http://symfony.com/doc/current/best_practices/configuration.html#infrastructure-related-configuration
 parameters:
-    database_host:     127.0.0.1
-    database_port:     ~
-    database_name:     symfony
-    database_user:     root
-    database_password: ~
+    database_host:     codepunk.com
+    database_port:     3306
+    database_name:     codepunk_db
+    database_user:     codepunk_root
+    database_password: 'x$No0PmN*X1W'
     # You should uncomment this if you want use pdo_sqlite
     # database_path: "%kernel.root_dir%/data.db3"
 
     mailer_transport:  smtp
-    mailer_host:       127.0.0.1
-    mailer_user:       ~
-    mailer_password:   ~
+    mailer_host:       secure336.sgcpanel.com
+    mailer_port:       465
+    mailer_encryption: ssl
+    mailer_auth_mode:  login
+    mailer_user:       donotreply@codepunk.com
+    mailer_password:   'oG!4BeC4n&eg'
 
     # A secret key that's used to generate certain security-related tokens
-    secret:            ThisTokenIsNotSoSecretChangeIt
+    secret:            59b56baea9cf6b3838a13b3463b22983f5dc839e

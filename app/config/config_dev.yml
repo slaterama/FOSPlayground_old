@@ -32,3 +32,8 @@ monolog:
 
 #swiftmailer:
 #    delivery_address: me@example.com
+
+# Doctrine Configuration
+doctrine:
+    dbal:
+        unix_socket: "%database_unix_socket%"
