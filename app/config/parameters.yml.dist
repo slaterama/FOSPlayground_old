@@ -19,4 +19,4 @@ parameters:
     mailer_password:   'oG!4BeC4n&eg'
 
     # A secret key that's used to generate certain security-related tokens
-    secret:            59b56baea9cf6b3838a13b3463b22983f5dc839e
+    secret: 59b56baea9cf6b3838a13b3463b22983f5dc839e
