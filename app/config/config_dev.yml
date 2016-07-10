@@ -1,5 +1,6 @@
 imports:
     - { resource: config.yml }
+    - { resource: parameters_dev.yml }
 
 framework:
     router:
@@ -36,4 +37,4 @@ monolog:
 # Doctrine Configuration
 doctrine:
     dbal:
-        unix_socket: "%database_unix_socket%"
+        unix_socket: "%unix_socket%"
